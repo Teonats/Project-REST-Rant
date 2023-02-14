@@ -8,3 +8,7 @@ h1 {
     display: block;
     margin: auto;
   }
+
+  div {
+    text-align: center;
+  }
