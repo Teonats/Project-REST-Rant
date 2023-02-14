@@ -2,6 +2,9 @@ const router = require ('express').Router()
 
 router.get('/', (req, res)=> {
     console.log('controllers')
+
+   
+     
     //res.render('places/index')
 let places = [{
     name: 'H-Thai-ML',
@@ -18,6 +21,10 @@ let places = [{
   }]
   
     res.render('places/index', {places})
+})
+
+router.get('/new', (req, res) => {
+  res.render('places/new')
 })
 
 module.exports = router
