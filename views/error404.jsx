@@ -14,11 +14,6 @@ function error404 () {
                 Photo by <a href="https://unsplash.com/@jairoalzate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jairo Alzate</a> on <a href="https://unsplash.com/s/photos/free-dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                 </div>
                 </div>
-
-            
-          
-              
-              
           </main>
       </Def>
     )
