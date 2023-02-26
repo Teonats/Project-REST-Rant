@@ -12,7 +12,7 @@ const placeSchema = new mongoose.Schema({
     max: [new Date().getFullYear(), 'Hey, this year is in the future!']
 
   },
-  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'comment'}]
+  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Comment'}]
 
 })
 
